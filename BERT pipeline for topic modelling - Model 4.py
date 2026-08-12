@@ -298,7 +298,7 @@ df = df.drop(columns=['Topic'])
 
 df_tot = pd.read_csv('cleaned_lahore_reviews.csv')
 
-"""Processing Missed Data"""
+# Processing missed data here
 
 df_tot_new = pd.read_csv('cleaned_missed_hospitals.csv')
 
